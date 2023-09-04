@@ -1,0 +1,175 @@
+/* Apply Roboto font to the body */
+/* Styles for screens with a maximum width of 480px (typical mobile phones) */
+@media (max-width: 480px) {
+    /* Your CSS rules for mobile devices go here */
+  }
+  
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Apply Source Sans Black font to specific elements (e.g., header) */
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Style for the navbar */
+.navbar {
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    
+
+}
+
+/* Style for the logo */
+.logo {
+    max-width: 28%;
+    padding: 10px 0px;
+    margin: 30px;
+}
+
+/* Style for the navbar links */
+.navbar-link {
+    font-family: 'Roboto';
+    color: #2708a0;
+    text-decoration: none;
+    margin: 0 40px; 
+    font-size: 25px;
+}
+
+/* Style for the "Contact" button */
+.contact-button {
+    background-color: #fb6f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 20px;
+    border-radius: 30px;
+
+
+}
+.inBuild{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+.inBuild h1{
+    font-family: 'Source Sans Pro';
+    font-size: 80px;
+    color: #2708a0;
+    font-weight: bolder;
+
+}
+
+.inBuild img{
+   width: 11%;
+   margin: -55px;
+
+}
+.picContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+.portrait{
+    width: 65%;
+    position: relative;
+}
+.floatText{
+    position: absolute;
+    top: 70%;
+    left:63%;
+    width: 30%;
+
+
+}
+
+
+    
+    /* Media queries for responsiveness */
+
+/* Styles for screens with a maximum width of 768px (typical tablets and smaller screens) */
+@media (max-width: 768px) {
+    header {
+      flex-direction: row;
+      text-align: center;
+    }
+  
+    .navbar {
+      flex-direction: row; /* Change to row to align horizontally */
+      align-items: center;
+      justify-content: center; /* Center the navbar items horizontally */
+      margin-right: 0;
+      padding: 20px 0;
+    }
+
+    .contact-button{
+        font-size: 8px;
+        padding: 5px 15px;
+
+    }
+  
+    .logo {
+      max-width: 25%; /* Adjust the logo size as needed */
+      margin: 10px 0;
+    }
+  
+    .navbar-link {
+      font-size: 10px;
+      margin: 0px 10px; /* Add horizontal margin between navbar links */
+    }
+
+    .inBuild h1{
+        font-size: 25px;
+
+    }
+    .inBuild img{
+        width: 10%;
+        margin: -17px;
+    }
+    .picContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+        position: relative;
+    }
+    .portrait{
+        width: 50%;
+       
+
+    }
+    .floatText{
+        width: 20%;
+        position: absolute;
+        top: -15%;
+
+
+
+
+    }
+  }
+  
+    
+    
+    
+    
+    
+      
+
