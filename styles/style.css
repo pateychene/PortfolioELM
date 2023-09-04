@@ -112,6 +112,39 @@ header {
     font-style: italic;
 }
 
+.folderText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 10px;
+    position: relative;   
+}
+.insideTitle{
+    position: absolute;
+    color: #fb6f00;
+    font-size: 30px;
+    left: 26%;
+    font-weight: 900;
+    top: -5%;
+    font-family: 'Source Sans Pro';
+}
+.insideText{
+    position: absolute;
+    color: #fb6f00;
+    top: 24%;
+    width: 40%;
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: 'Source Sans Pro';
+
+}
+.folder{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+
 
     
     /* Media queries for responsiveness */
@@ -178,6 +211,18 @@ header {
     }
     .orangeText{
         font-size: 20px;
+    }
+    .insideText{
+        width: 65%;
+        top : 15%;
+        font-size: 15px;
+    }
+    .insideTitle{
+        left: 10%;
+        font-size: 15px;   
+    }
+    .folder{
+        width: 90%;
     }
   }
   
