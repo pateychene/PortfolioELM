@@ -95,8 +95,21 @@ header {
     top: 70%;
     left:63%;
     width: 30%;
-
-
+}
+.subPicText p{
+    display: flex;
+    justify-content: center;
+}
+.blueText{
+    color: #2708a0;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.orangeText{
+    color: #fb6f00;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 
@@ -159,10 +172,12 @@ header {
         width: 20%;
         position: absolute;
         top: -15%;
-
-
-
-
+    }
+    .blueText{
+        font-size: 12px;
+    }
+    .orangeText{
+        font-size: 20px;
     }
   }
   
