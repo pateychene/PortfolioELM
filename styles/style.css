@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Apply Source Sans Black font to specific elements (e.g., header) */
@@ -122,7 +123,9 @@ header {
     flex-direction: row;
     justify-content: center;
     margin: 100px 10px;
-    position: relative;   
+    position: relative; 
+    
+
 }
 .insideTitle{
     position: absolute;
@@ -150,7 +153,16 @@ header {
     display: flex;
     justify-content: center;
 }
+.starLine{
+    position: relative;
 
+}
+.blueLine{
+    position: absolute;
+    width: 111%;
+    top: -63%;
+
+}
 
 
     
@@ -179,7 +191,8 @@ header {
   
     .logo {
       max-width: 25%; /* Adjust the logo size as needed */
-      margin: 10px 0;
+      margin: 10px 10px;
+
     }
   
     .navbar-link {
@@ -209,13 +222,16 @@ header {
     }
     .portrait{
         width: 50%;
-       
-
     }
     .floatText{
         width: 20%;
         position: absolute;
         top: -15%;
+    }
+    .subPicText{
+        position: relative;
+        bottom: 100px;
+
     }
     .blueText{
         font-size: 12px;
@@ -234,6 +250,10 @@ header {
     }
     .folder{
         width: 90%;
+    }
+    .folderText{
+        bottom: 150px;
+        
     }
   }
   
